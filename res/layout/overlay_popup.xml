@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bubble_background"  android:layout_height="wrap_content"
+    android:layout_width="wrap_content" android:id="@+id/map_bubblebtn"
+    android:clickable="true" android:focusable="true" android:paddingTop="5dp"
+    android:paddingLeft="5dp" android:paddingRight="5dp"
+    android:paddingBottom="10dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/popuptext"
+    android:layout_width="wrap_content" android:layout_height="wrap_content">
+    			
+    	 <TextView android:id="@+id/map_bubbleTitle" 
+	       android:ellipsize="marquee" 
+	       android:textSize="17dp"
+	       android:textColor="#000000"
+	       android:layout_width="wrap_content" 
+	       android:layout_height="wrap_content"
+	       android:singleLine="true" 
+	       />
+       
+        <TextView  android:id="@+id/map_bubbleText" 
+           android:textSize="14dp"
+           android:textColor="#000000"
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content" 
+           android:layout_below="@id/map_bubbleTitle"  
+            />  
+        <TextView  android:id="@+id/map_bubbleNothing" 
+           android:textSize="5dp"
+           android:textColor="#000000"
+           android:layout_width="wrap_content" 
+           android:layout_height="wrap_content" 
+           android:layout_below="@id/map_bubbleText"  
+            />       
+            
+    </LinearLayout>
+      <TextView android:layout_toRightOf="@id/popuptext" android:layout_width="wrap_content" 
+          android:layout_height="wrap_content"
+          android:background="@drawable/device_access_location_found_light"
+          android:id="@+id/popup_run"
+          android:layout_marginRight="1dp"
+       />
+    
+</RelativeLayout>

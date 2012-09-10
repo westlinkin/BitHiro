@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_delete"
+          android:icon="@drawable/content_discard"
+          android:title="@string/delete"
+          android:showAsAction="always"/>   
+ 	<item android:id="@+id/menu_run"
+          android:icon="@drawable/device_access_location_found"
+          android:title="@string/begin_loaction" 
+          android:showAsAction="always"/>  
+</menu>

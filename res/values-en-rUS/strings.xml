@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BitHiro</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">BitHiro</string>
+    <string-array name="all_func">
+        <item >My Virtual Addresses</item>
+        <item >Choose a City</item>
+        <item >Input the Virtual Address</item>
+        <item >Set Virtual Address from Maps</item>
+        <item >About BitHiro</item>
+    </string-array>
+       
+    
+    <string name="title_activity_about">About BitHiro</string>
+    <string name="about_intro">\n\t Hiro refers to Hiro Nakamura, who has the ability to travel through time and space in the TV show Heroes.\n\t BitHiro helps you travel through space in real life, digitally.BitHiro can let you be wherever you wanna be.\n\t In one day, I hope this app can really help travel through time :P </string>
+    <string name= "title_activity_my_address">Virtual Address</string>
+    <string name="addName">The Address Name</string>
+    <string name="addInfo">The Specific Address </string>
+    <string name="dialog_title">Add a Virtual Address</string>
+    <string name="positiveBtn">save</string>
+    <string name="negBtn">cancle</string>
+    <string name="no_context_warning">You must input the address name and specific address</string>
+    <string name="delete">delete</string>
+    <string name="contact_me">contact me</string>
+    <string name="title_activity_input">Input an Address</string>
+    <string name="title_activity_city">Choose a City</string>
+    <string name="input_city">You Can Input the city here</string>
+    <string name="title_activity_map">Set from Map</string>
+    <string name="begin_loaction">begin virtual locating</string>
+    <string name="stop_loaction">stop virtual location</string>
+    <string name="settingsWrong">with \"allow mock location\" disabled, BitHiro can not work properly.</string>
+    <string name="possitiveBtnSettings">Go to Set</string>
+    <string name="negBtnSettings">Cancle</string>
+    <string name="pick">picked</string>
+    <string name="networkError">No Network Connection!</string>
+    <string name="MyLocation">My Location</string>
+    <string name="LocationName">Location Name</string>
+    <string name="loading_location_name">loading location name...</string>
+    <string name="warning_loading_name">The location name is still be loading，couldn\'t start faking GPS！</string>
+    <string name="warning_gpsOn">with \"GPS satellites\" enabled, BitHiro might not work properly.</string>
+    <string name="warning_networkOn">with \"Google\'s location service\" enabled, BitHiro may not work properly.</string>
+    <string name="warning_bothOn">with \"GPS satellites\" and \"Google\'s location service\" enabled, BitHiro may not work properly.</string>
+    <string name="tips">Tips:</string>
+</resources>

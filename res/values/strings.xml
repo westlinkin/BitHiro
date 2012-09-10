@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="app_name">BitHiro</string>
+    <string name="menu_settings">设置</string>
+    <string name="title_activity_main">BitHiro</string>
+
+    <string-array name="all_func">
+        <item>我的虚拟地址</item>
+        <item>选择城市</item>
+        <item>输入虚拟地址</item>
+        <item>从地图设定虚拟地址</item>
+        <item>关于BitHiro</item>
+    </string-array>
+
+    <string name="title_activity_about">关于BitHiro</string>
+    <string name="about_intro">\n\t Hiro代表Hiro Nakamura，在美剧Heroes中是一位能在时间与空间穿梭的超能力者。\n\t 而BitHiro能够帮助你在现实生活中在空间中虚拟穿梭，让你出现在你想出现的任何地方。\n\t 当然有一天，希望这个app也能帮助你在时间尺度穿梭:P </string>
+    <string name="title_activity_my_address">虚拟地址</string>
+    <string name="addName">地址名称</string>
+    <string name="addInfo">详细地址</string>
+    <string name="dialog_title">添加虚拟地址</string>
+    <string name="positiveBtn">保存</string>
+    <string name="negBtn">取消</string>
+    <string name="no_context_warning">必须输入地址名称和详细地址</string>
+    <string name="delete">删除</string>
+    <string name="contact_me">联系作者</string>
+    <string name="contact_qq">QQ: 407461255 </string>
+    <string name="contact_email">E-mail: westlinkin@gmail.com </string>
+    <string name="title_activity_input">输入地址</string>
+    <string name="title_activity_city">选择城市</string>
+    <string name="input_city">你可以在此输入城市名</string>
+    <string name="title_activity_map">从地图设置</string>
+    <string name="begin_loaction">开始虚拟定位</string>
+    <string name="stop_loaction">结束虚拟定位</string>
+    <string name="settingsWrong">并未勾选\"允许模拟位置\"。如果不勾选此项，BitHiro将无法正常工作</string>
+    <string name="possitiveBtnSettings">前往设置</string>
+    <string name="negBtnSettings">取消</string>
+    <string name="pick">选择了</string>
+    <string name="networkError">没有网络连接！</string>
+    <string name="MyLocation">我的位置</string>
+    <string name="LocationName">地址名称</string>
+    <string name="loading_location_name">正在加载地址...</string>
+    <string name="warning_loading_name">仍在加载地址信息，无法启动模拟定位！</string>
+    <string name="title_activity_finish">finish</string>
+    <string name="warning_gpsOn">您已使用\"GPS卫星\"定位，BitHiro在此情况下可能无法正常工作</string>
+    <string name="warning_networkOn">您已使用\"Google的位置服务\"定位，BitHiro在此情况下可能无法正常工作</string>
+    <string name="warning_bothOn">您已使用\"GPS卫星\"定位和\"Google的位置服务\"定位，BitHiro在此情况下可能无法正常工作</string>
+    <string name="tips">提示：</string>
+
+</resources>
