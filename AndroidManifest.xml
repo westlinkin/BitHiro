@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.westlinkin.bithiro"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -50,6 +50,12 @@
             </intent-filter
             -->
         </activity>
+        <!-- 
+		<activity android:name="com.waps.OffersWebView" android:configChanges="keyboardHidden|orientation" />
+        <meta-data android:name="WAPS_ID" android:value="19826d49f3d7a9769f1ed2609f30c9d9" />
+        <meta-data android:name="WAPS_PID" android:value="gfan" />
+        -->
+        
         <activity
             android:name=".MyAddressActivity"
             android:label="@string/title_activity_my_address" >

@@ -1,3 +1,7 @@
+V1.1
+fix a bug: cannot close the mocking location service. 
+
+
 V1.0 
 Hiro refers to Hiro Nakamura, who has the ability to travel through time and space in the TV show Heroes.
 -----------------------------------------------

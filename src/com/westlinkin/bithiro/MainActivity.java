@@ -123,7 +123,7 @@ public class MainActivity extends Activity {
 		});
         // 初始化统计器，并通过代码设置WAPS_ID, WAPS_PID
      	AppConnect.getInstance("19826d49f3d7a9769f1ed2609f30c9d9", 
-     									/*WAPS_PID 针对每个市场不同，做不同设置*/"QQ", this);
+     									/*WAPS_PID 针对每个市场不同，做不同设置*/"google", this);
      	AppConnect.getInstance(this).setAdViewClassName("com.westlinkin.bithiro.MyAdView");
      	// 互动广告调用方式
      	LinearLayout container = (LinearLayout) findViewById(R.id.AdLinearLayout_main);

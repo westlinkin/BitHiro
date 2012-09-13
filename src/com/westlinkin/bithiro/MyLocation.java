@@ -126,7 +126,7 @@ public class MyLocation {
 	    }
 	    for (int i=0; i < serviceList.size(); i++) {
 	    //	Log.v(TAG, "serviceList.size() > 0");
-	        if (serviceList.get(i).service.getClassName().equals("com.example.bithiro.MockLocation")) {
+	        if (serviceList.get(i).service.getClassName().equals("com.westlinkin.bithiro.MockLocation")) {
 
 		    	Log.v(TAG, "equals(MockLocation)");
 	            isRunning = true;
