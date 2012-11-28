@@ -22,10 +22,6 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.waps.AdView;
-import com.waps.AppConnect;
-import com.westlinkin.bithiro.R;
-
 public class MainActivity extends Activity {
 	private final String DATABASE_PATH = "/data/data/com.westlinkin.bithiro/databases";
 	private final String DATABASE_NAME = "bithiro";
@@ -121,13 +117,6 @@ public class MainActivity extends Activity {
 				}
 			}
 		});
-        // 初始化统计器，并通过代码设置WAPS_ID, WAPS_PID
-     	AppConnect.getInstance("19826d49f3d7a9769f1ed2609f30c9d9", 
-     									/*WAPS_PID 针对每个市场不同，做不同设置*/"google", this);
-     	AppConnect.getInstance(this).setAdViewClassName("com.westlinkin.bithiro.MyAdView");
-     	// 互动广告调用方式
-     	LinearLayout container = (LinearLayout) findViewById(R.id.AdLinearLayout_main);
-     	new AdView(this, container).DisplayAd();
     	
     }
 	
@@ -225,7 +214,6 @@ public class MainActivity extends Activity {
     
     @Override
 	protected void onDestroy() {
-		AppConnect.getInstance(this).finalize();
 		super.onDestroy();
 	}
 }

@@ -1,8 +1,5 @@
 package com.westlinkin.bithiro;
 
-import com.waps.AdView;
-import com.westlinkin.bithiro.R;
-
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.Notification;
@@ -14,7 +11,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class InputActivity extends Activity {
@@ -31,10 +27,6 @@ public class InputActivity extends Activity {
         actionBar.setDisplayHomeAsUpEnabled(true);
         
         et_input = (EditText)findViewById(R.id.et_input_address);
-        
-        // 互动广告调用方式
-     	LinearLayout container = (LinearLayout) findViewById(R.id.AdLinearLayout_input);
-     	new AdView(this, container).DisplayAd();
     }
 
     @Override

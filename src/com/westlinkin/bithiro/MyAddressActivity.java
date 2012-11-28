@@ -12,9 +12,6 @@ import java.util.Map;
 
 import org.apache.http.util.EncodingUtils;
 
-import com.waps.AdView;
-import com.westlinkin.bithiro.R;
-
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -85,11 +82,7 @@ public class MyAddressActivity extends Activity {
 			 lv_address.setAdapter(saAddName);
 			 
         }
-     // 互动广告调用方式
-     	LinearLayout container = (LinearLayout) findViewById(R.id.AdLinearLayout_my_address);
-     	new AdView(this, container).DisplayAd();
-     	
-     	
+   	
 		 lv_address.setChoiceMode(ListView.CHOICE_MODE_MULTIPLE_MODAL);
 		 lv_address.setMultiChoiceModeListener(new MultiChoiceModeListener() {
 

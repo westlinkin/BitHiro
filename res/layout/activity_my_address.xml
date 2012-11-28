@@ -9,11 +9,6 @@
         android:layout_height="wrap_content">
 
     </ListView> 
-    <LinearLayout
-            android:id="@+id/AdLinearLayout_my_address"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:layout_below="@id/listView_my_address"/>
+
     
 </RelativeLayout>

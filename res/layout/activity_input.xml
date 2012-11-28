@@ -15,10 +15,5 @@
 		android:background="@drawable/edittext_shape">
 
     </EditText>
-	<LinearLayout
-            android:id="@+id/AdLinearLayout_input"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:layout_below="@id/et_input_address"/>
+
 </RelativeLayout>

@@ -11,7 +11,6 @@ import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.location.Address;
 import android.location.Geocoder;
@@ -24,7 +23,6 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.google.android.maps.GeoPoint;
@@ -33,9 +31,6 @@ import com.google.android.maps.MapController;
 import com.google.android.maps.MapView;
 import com.google.android.maps.Overlay;
 import com.google.android.maps.OverlayItem;
-import com.waps.AppConnect;
-import com.waps.MiniAdView;
-import com.westlinkin.bithiro.R;
 import com.westlinkin.bithiro.FzLocationManager.LocationCallBack;
 
 
@@ -95,12 +90,7 @@ public class MyMapActivity extends MapActivity implements LocationCallBack {
          }
         FzLocationManager.init(MyMapActivity.this.getApplicationContext() , MyMapActivity.this);
         fzLocation = FzLocationManager.getInstance();
-        
-        // 迷你广告调用方式
-     	AppConnect.getInstance(this).setAdBackColor(Color.argb(0, 0, 0, 0));//设置迷你广告背景颜色
-     	AppConnect.getInstance(this).setAdForeColor(Color.RED);//设置迷你广告文字颜色
-     	LinearLayout miniLayout = (LinearLayout) findViewById(R.id.miniAdLinearLayout);
-     	new MiniAdView(this, miniLayout).DisplayAd(10);// 10秒刷新一次
+    
        
     }
     

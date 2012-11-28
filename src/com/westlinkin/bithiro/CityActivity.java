@@ -1,8 +1,5 @@
 package com.westlinkin.bithiro;
 
-import com.waps.AdView;
-import com.westlinkin.bithiro.R;
-
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.Notification;
@@ -17,7 +14,6 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class CityActivity extends Activity {
@@ -54,9 +50,6 @@ public class CityActivity extends Activity {
         input_city.setAdapter(new ArrayAdapter<String>(this,android.R.layout.simple_dropdown_item_1line,cityItems));
         Log.v(TAG, address_info);
         
-        // 互动广告调用方式
-     	LinearLayout container = (LinearLayout) findViewById(R.id.AdLinearLayout_city);
-     	new AdView(this, container).DisplayAd();
     }
 
     @Override

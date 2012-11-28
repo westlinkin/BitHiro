@@ -37,36 +37,31 @@ public final class R {
         public static final int social_person=0x7f02000f;
     }
     public static final class id {
-        public static final int AdLinearLayout_city=0x7f0a0002;
-        public static final int AdLinearLayout_input=0x7f0a0004;
-        public static final int AdLinearLayout_main=0x7f0a0006;
-        public static final int AdLinearLayout_my_address=0x7f0a000a;
         public static final int addInfo=0x01010001;
         public static final int addName=0x01010000;
-        public static final int et_addInfo=0x7f0a000c;
-        public static final int et_addName=0x7f0a000d;
-        public static final int et_input_address=0x7f0a0003;
-        public static final int listView_main=0x7f0a0005;
-        public static final int listView_my_address=0x7f0a0009;
-        public static final int mapView=0x7f0a0008;
-        public static final int map_bubbleNothing=0x7f0a0012;
-        public static final int map_bubbleText=0x7f0a0011;
-        public static final int map_bubbleTitle=0x7f0a0010;
-        public static final int map_bubblebtn=0x7f0a000e;
-        public static final int menu_add=0x7f0a0019;
-        public static final int menu_contact=0x7f0a0016;
-        public static final int menu_delete=0x7f0a001b;
-        public static final int menu_run=0x7f0a0017;
-        public static final int menu_settings=0x7f0a001a;
-        public static final int menu_stop=0x7f0a0018;
-        public static final int miniAdLinearLayout=0x7f0a0007;
-        public static final int popup_run=0x7f0a0013;
-        public static final int popuptext=0x7f0a000f;
+        public static final int et_addInfo=0x7f0a0007;
+        public static final int et_addName=0x7f0a0008;
+        public static final int et_input_address=0x7f0a0002;
+        public static final int listView_main=0x7f0a0003;
+        public static final int listView_my_address=0x7f0a0005;
+        public static final int mapView=0x7f0a0004;
+        public static final int map_bubbleNothing=0x7f0a000d;
+        public static final int map_bubbleText=0x7f0a000c;
+        public static final int map_bubbleTitle=0x7f0a000b;
+        public static final int map_bubblebtn=0x7f0a0009;
+        public static final int menu_add=0x7f0a0014;
+        public static final int menu_contact=0x7f0a0011;
+        public static final int menu_delete=0x7f0a0016;
+        public static final int menu_run=0x7f0a0012;
+        public static final int menu_settings=0x7f0a0015;
+        public static final int menu_stop=0x7f0a0013;
+        public static final int popup_run=0x7f0a000e;
+        public static final int popuptext=0x7f0a000a;
         public static final int textView1=0x7f0a0000;
         public static final int tv_cities_list=0x7f0a0001;
-        public static final int tv_contact_qq=0x7f0a000b;
-        public static final int tv_setting_warning=0x7f0a0014;
-        public static final int tv_setting_wrong=0x7f0a0015;
+        public static final int tv_contact_qq=0x7f0a0006;
+        public static final int tv_setting_warning=0x7f0a000f;
+        public static final int tv_setting_wrong=0x7f0a0010;
     }
     public static final class layout {
         public static final int activity_about=0x7f030000;
