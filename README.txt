@@ -1,3 +1,6 @@
+V2.0 remove all the ads
+ fix a bug: crash when closing mocking location service in some phone
+
 V1.1
 fix a bug: cannot close the mocking location service. 
 
